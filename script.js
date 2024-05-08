@@ -88,6 +88,7 @@ let subMenuListener = subMenuEl.addEventListener('click', function(e){
 
 let menuListener = topMenuEL.addEventListener('click', function(e){
   e.preventDefault()
+  console.log(e);
   if (e.target.tagName !== 'A')
   {
     return
